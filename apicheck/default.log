@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-08-25T00:11:31</date>
+  <millis>1598294491231</millis>
+  <sequence>0</sequence>
+  <logger>com.example.demo.WeatherAPI</logger>
+  <level>INFO</level>
+  <class>com.example.demo.WeatherAPI</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Example log from console</message>
+</record>
+<record>
+  <date>2020-08-25T00:11:35</date>
+  <millis>1598294495420</millis>
+  <sequence>1</sequence>
+  <logger>com.example.demo.WeatherAPI</logger>
+  <level>INFO</level>
+  <class>com.example.demo.WeatherAPI</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Response code is: 200</message>
+</record>
+<record>
+  <date>2020-08-25T00:11:36</date>
+  <millis>1598294496837</millis>
+  <sequence>2</sequence>
+  <logger>com.example.demo.WeatherAPI</logger>
+  <level>INFO</level>
+  <class>com.example.demo.WeatherAPI</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>JSONObject:{"calctime":0.3107,"cnt":15,"cod":"200","list":[{"dt":1485784982,"rain":{"3h":0.255},"coord":{"lon":12.52859,"lat":32.06329},"name":"Yafran","weather":[{"icon":"10d","description":"light rain","main":"Rain","id":500}],"main":{"temp":9.68,"temp_min":9.681,"grnd_level":961.02,"humidity":85,"pressure":961.02,"sea_level":1036.82,"temp_max":9.681},"id":2208791,"clouds":{"all":88},"wind":{"deg":356.5,"speed":3.96}},{"dt":1485784982,"coord":{"lon":12.08199,"lat":32.931198},"name":"Zuwarah","weather":[{"icon":"04d","description":"broken clouds","main":"Clouds","id":803}],"main":{"temp":15.36,"temp_min":15.356,"grnd_level":1036.81,"humidity":89,"pressure":1036.81,"sea_level":1037.79,"temp_max":15.356},"id":2208425,"clouds":{"all":56},"wind":{"deg":30.0002,"speed":5.46}},{"dt":1485784982,"coord":{"lon":12.48845,"lat":32.79335},"name":"Sabratah","weather":[{"icon":"04d","description":"overcast clouds","main":"Clouds","id":804}],"main":{"temp":15.31,"temp_min":15.306,"grnd_level":1037.05,"humidity":100,"pressure":1037.05,"sea_level":1037.55,"temp_max":15.306},"id":2212771,"clouds":{"all":92},"wind":{"deg":28.5002,"speed":6.71}},{"dt":1485784982,"rain":{"3h":1.29},"coord":{"lon":13.02028,"lat":32.172218},"name":"Gharyan","weather":[{"icon":"10d","description":"light rain","main":"Rain","id":500}],"main":{"temp":11.23,"temp_min":11.231,"grnd_level":1004.23,"humidity":90,"pressure":1004.23,"sea_level":1037.06,"temp_max":11.231},"id":2217362,"clouds":{"all":92},"wind":{"deg":16.5002,"speed":3.86}},{"dt":1485784982,"coord":{"lon":12.72778,"lat":32.75222},"name":"Zawiya","weather":[{"icon":"03d","description":"scattered clouds","main":"Clouds","id":802}],"main":{"temp":17,"temp_min":17,"humidity":55,"pressure":1024,"temp_max":17},"id":2216885,"clouds":{"all":40},"wind":{"deg":10,"speed":3.6}},{"dt":1485781822,"coord":{"lon":13.18746,"lat":32.875191},"name":"Tripoli","weather":[{"icon":"03d","description":"scattered clouds","main":"Clouds","id":802}],"main":{"temp":16,"temp_min":16,"humidity":59,"pressure":1025,"temp_max":16},"id":2210247,"clouds":{"all":40},"wind":{"deg":360,"speed":3.6}},{"dt":1485784982,"coord":{"lon":13.6332,"lat":32.43502},"name":"Tarhuna","weather":[{"icon":"03d","description":"scattered clouds","main":"Clouds","id":802}],"main":{"temp":17,"temp_min":17,"humidity":55,"pressure":1024,"temp_max":17},"id":2210221,"clouds":{"all":40},"wind":{"deg":10,"speed":3.6}},{"dt":1485784982,"rain":{"3h":0.39},"coord":{"lon":14,"lat":32.616669},"name":"Masallatah","weather":[{"icon":"10d","description":"light rain","main":"Rain","id":500}],"main":{"temp":12.86,"temp_min":12.856,"grnd_level":1000.17,"humidity":73,"pressure":1000.17,"sea_level":1036.49,"temp_max":12.856},"id":2215163,"clouds":{"all":88},"wind":{"deg":16.5002,"speed":4.81}},{"dt":1485784982,"coord":{"lon":14.26191,"lat":32.648609},"name":"Al Khums","weather":[{"icon":"04d","description":"overcast clouds","main":"Clouds","id":804}],"main":{"temp":15.18,"temp_min":15.181,"grnd_level":1023.35,"humidity":73,"pressure":1023.35,"sea_level":1036.01,"temp_max":15.181},"id":2219905,"clouds":{"all":88},"wind":{"deg":26.0002,"speed":5.26}},{"dt":1485784982,"coord":{"lon":14.56874,"lat":32.467381},"name":"Zlitan","weather":[{"icon":"04d","description":"overcast clouds","main":"Clouds","id":804}],"main":{"temp":15.18,"temp_min":15.181,"grnd_level":1023.35,"humidity":73,"pressure":1023.35,"sea_level":1036.01,"temp_max":15.181},"id":2208485,"clouds":{"all":88},"wind":{"deg":26.0002,"speed":5.26}},{"dt":1485784991,"coord":{"lon":14.46111,"lat":35.897221},"name":"Birkirkara","weather":[{"icon":"03d","description":"scattered clouds","main":"Clouds","id":802}],"main":{"temp":14,"temp_min":14,"humidity":62,"pressure":1023,"temp_max":14},"id":2563191,"clouds":{"all":40},"wind":{"var_beg":330,"deg":10,"var_end":30,"speed":4.1}},{"dt":1485781816,"coord":{"lon":14.71719,"lat":36.928242},"name":"Ragusa","weather":[{"icon":"02d","description":"few clouds","main":"Clouds","id":801}],"main":{"temp":14.54,"temp_min":13,"humidity":50,"pressure":1022,"temp_max":16},"id":2523650,"clouds":{"all":20},"wind":{"var_beg":350,"deg":20,"var_end":60,"speed":3.1}},{"dt":1485781816,"coord":{"lon":14.84989,"lat":36.730541},"name":"Pozzallo","weather":[{"icon":"02d","description":"few clouds","main":"Clouds","id":801}],"main":{"temp":14,"temp_min":14,"humidity":50,"pressure":1022,"temp_max":14},"id":2523693,"clouds":{"all":20},"wind":{"var_beg":350,"deg":20,"var_end":60,"speed":3.1}},{"dt":1485785168,"coord":{"lon":14.77399,"lat":36.84594},"name":"Modica","weather":[{"icon":"03d","description":"scattered clouds","main":"Clouds","id":802}],"main":{"temp":15.74,"temp_min":14,"humidity":47,"pressure":1022,"temp_max":17},"id":2524119,"clouds":{"all":40},"wind":{"deg":0,"speed":2.1}},{"dt":1485784979,"coord":{"lon":14.94779,"lat":36.824242},"name":"Rosolini","weather":[{"icon":"03d","description":"scattered clouds","main":"Clouds","id":802}],"main":{"temp":15.62,"temp_min":14,"humidity":47,"pressure":1022,"temp_max":17},"id":2523581,"clouds":{"all":40},"wind":{"deg":0,"speed":2.1}}]}</message>
+</record>
+<record>
+  <date>2020-08-25T00:11:36</date>
+  <millis>1598294496864</millis>
+  <sequence>3</sequence>
+  <logger>com.example.demo.WeatherAPI</logger>
+  <level>INFO</level>
+  <class>com.example.demo.WeatherAPI</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Listobject:[{"dt":1485784982,"rain":{"3h":0.255},"coord":{"lon":12.52859,"lat":32.06329},"name":"Yafran","weather":[{"icon":"10d","description":"light rain","main":"Rain","id":500}],"main":{"temp":9.68,"temp_min":9.681,"grnd_level":961.02,"humidity":85,"pressure":961.02,"sea_level":1036.82,"temp_max":9.681},"id":2208791,"clouds":{"all":88},"wind":{"deg":356.5,"speed":3.96}},{"dt":1485784982,"coord":{"lon":12.08199,"lat":32.931198},"name":"Zuwarah","weather":[{"icon":"04d","description":"broken clouds","main":"Clouds","id":803}],"main":{"temp":15.36,"temp_min":15.356,"grnd_level":1036.81,"humidity":89,"pressure":1036.81,"sea_level":1037.79,"temp_max":15.356},"id":2208425,"clouds":{"all":56},"wind":{"deg":30.0002,"speed":5.46}},{"dt":1485784982,"coord":{"lon":12.48845,"lat":32.79335},"name":"Sabratah","weather":[{"icon":"04d","description":"overcast clouds","main":"Clouds","id":804}],"main":{"temp":15.31,"temp_min":15.306,"grnd_level":1037.05,"humidity":100,"pressure":1037.05,"sea_level":1037.55,"temp_max":15.306},"id":2212771,"clouds":{"all":92},"wind":{"deg":28.5002,"speed":6.71}},{"dt":1485784982,"rain":{"3h":1.29},"coord":{"lon":13.02028,"lat":32.172218},"name":"Gharyan","weather":[{"icon":"10d","description":"light rain","main":"Rain","id":500}],"main":{"temp":11.23,"temp_min":11.231,"grnd_level":1004.23,"humidity":90,"pressure":1004.23,"sea_level":1037.06,"temp_max":11.231},"id":2217362,"clouds":{"all":92},"wind":{"deg":16.5002,"speed":3.86}},{"dt":1485784982,"coord":{"lon":12.72778,"lat":32.75222},"name":"Zawiya","weather":[{"icon":"03d","description":"scattered clouds","main":"Clouds","id":802}],"main":{"temp":17,"temp_min":17,"humidity":55,"pressure":1024,"temp_max":17},"id":2216885,"clouds":{"all":40},"wind":{"deg":10,"speed":3.6}},{"dt":1485781822,"coord":{"lon":13.18746,"lat":32.875191},"name":"Tripoli","weather":[{"icon":"03d","description":"scattered clouds","main":"Clouds","id":802}],"main":{"temp":16,"temp_min":16,"humidity":59,"pressure":1025,"temp_max":16},"id":2210247,"clouds":{"all":40},"wind":{"deg":360,"speed":3.6}},{"dt":1485784982,"coord":{"lon":13.6332,"lat":32.43502},"name":"Tarhuna","weather":[{"icon":"03d","description":"scattered clouds","main":"Clouds","id":802}],"main":{"temp":17,"temp_min":17,"humidity":55,"pressure":1024,"temp_max":17},"id":2210221,"clouds":{"all":40},"wind":{"deg":10,"speed":3.6}},{"dt":1485784982,"rain":{"3h":0.39},"coord":{"lon":14,"lat":32.616669},"name":"Masallatah","weather":[{"icon":"10d","description":"light rain","main":"Rain","id":500}],"main":{"temp":12.86,"temp_min":12.856,"grnd_level":1000.17,"humidity":73,"pressure":1000.17,"sea_level":1036.49,"temp_max":12.856},"id":2215163,"clouds":{"all":88},"wind":{"deg":16.5002,"speed":4.81}},{"dt":1485784982,"coord":{"lon":14.26191,"lat":32.648609},"name":"Al Khums","weather":[{"icon":"04d","description":"overcast clouds","main":"Clouds","id":804}],"main":{"temp":15.18,"temp_min":15.181,"grnd_level":1023.35,"humidity":73,"pressure":1023.35,"sea_level":1036.01,"temp_max":15.181},"id":2219905,"clouds":{"all":88},"wind":{"deg":26.0002,"speed":5.26}},{"dt":1485784982,"coord":{"lon":14.56874,"lat":32.467381},"name":"Zlitan","weather":[{"icon":"04d","description":"overcast clouds","main":"Clouds","id":804}],"main":{"temp":15.18,"temp_min":15.181,"grnd_level":1023.35,"humidity":73,"pressure":1023.35,"sea_level":1036.01,"temp_max":15.181},"id":2208485,"clouds":{"all":88},"wind":{"deg":26.0002,"speed":5.26}},{"dt":1485784991,"coord":{"lon":14.46111,"lat":35.897221},"name":"Birkirkara","weather":[{"icon":"03d","description":"scattered clouds","main":"Clouds","id":802}],"main":{"temp":14,"temp_min":14,"humidity":62,"pressure":1023,"temp_max":14},"id":2563191,"clouds":{"all":40},"wind":{"var_beg":330,"deg":10,"var_end":30,"speed":4.1}},{"dt":1485781816,"coord":{"lon":14.71719,"lat":36.928242},"name":"Ragusa","weather":[{"icon":"02d","description":"few clouds","main":"Clouds","id":801}],"main":{"temp":14.54,"temp_min":13,"humidity":50,"pressure":1022,"temp_max":16},"id":2523650,"clouds":{"all":20},"wind":{"var_beg":350,"deg":20,"var_end":60,"speed":3.1}},{"dt":1485781816,"coord":{"lon":14.84989,"lat":36.730541},"name":"Pozzallo","weather":[{"icon":"02d","description":"few clouds","main":"Clouds","id":801}],"main":{"temp":14,"temp_min":14,"humidity":50,"pressure":1022,"temp_max":14},"id":2523693,"clouds":{"all":20},"wind":{"var_beg":350,"deg":20,"var_end":60,"speed":3.1}},{"dt":1485785168,"coord":{"lon":14.77399,"lat":36.84594},"name":"Modica","weather":[{"icon":"03d","description":"scattered clouds","main":"Clouds","id":802}],"main":{"temp":15.74,"temp_min":14,"humidity":47,"pressure":1022,"temp_max":17},"id":2524119,"clouds":{"all":40},"wind":{"deg":0,"speed":2.1}},{"dt":1485784979,"coord":{"lon":14.94779,"lat":36.824242},"name":"Rosolini","weather":[{"icon":"03d","description":"scattered clouds","main":"Clouds","id":802}],"main":{"temp":15.62,"temp_min":14,"humidity":47,"pressure":1022,"temp_max":17},"id":2523581,"clouds":{"all":40},"wind":{"deg":0,"speed":2.1}}]</message>
+</record>
+<record>
+  <date>2020-08-25T00:11:36</date>
+  <millis>1598294496867</millis>
+  <sequence>4</sequence>
+  <logger>com.example.demo.WeatherAPI</logger>
+  <level>INFO</level>
+  <class>com.example.demo.WeatherAPI</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Listobject size:15</message>
+</record>
+<record>
+  <date>2020-08-25T00:11:36</date>
+  <millis>1598294496868</millis>
+  <sequence>5</sequence>
+  <logger>com.example.demo.WeatherAPI</logger>
+  <level>INFO</level>
+  <class>com.example.demo.WeatherAPI</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Listobject_cityNames:[Yafran, Zuwarah, Sabratah, Gharyan, Zawiya, Tripoli, Tarhuna, Masallatah, Al Khums, Zlitan, Birkirkara, Ragusa, Pozzallo, Modica, Rosolini]</message>
+</record>
+<record>
+  <date>2020-08-25T00:11:36</date>
+  <millis>1598294496878</millis>
+  <sequence>6</sequence>
+  <logger>com.example.demo.WeatherAPI</logger>
+  <level>INFO</level>
+  <class>com.example.demo.WeatherAPI</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Count of cityNames starting with letter 'T': 2</message>
+</record>
+</log>
